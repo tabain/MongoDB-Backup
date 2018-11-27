@@ -20,6 +20,6 @@ Automating backup for MongoDB using CRONTAB and AWSCLI
  17) Test it out via  `./backup.sh`
  18) Set up a daily backup at midnight via `crontab -e`
  19) press `insert key`
- 20) paste this code `0 0 * * * /home/ubuntu/backup.sh > /home/ubuntu/backup.log`
+ 20) paste this code `0 0 * * * /home/ec2-user/backup.sh > /home/ec2-user/backup.log`
  21) for save job `ESC` `:wq`
  22) crontab list `crontab -l`
