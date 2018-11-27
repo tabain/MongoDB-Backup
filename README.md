@@ -1,5 +1,5 @@
 # automatically-backup-MongoDB
-mongodb, crontab, shell script, awscli, s3 
+Automating backup for MongoDB using CRONTAB and AWSCLI 
 ##  Make sure to:
  01) Name this file `backup.sh` and place it in `/home/ec2-user`
  02) `sudo yum install python`
