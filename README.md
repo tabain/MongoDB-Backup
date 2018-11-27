@@ -18,5 +18,8 @@ mongodb, crontab, shell script, awscli, s3
  15) Create S3 bucket for the backups and fill it in below (set a lifecycle rule to expire files older than X days in the bucket)
  16) Run `sudo chmod +x backup.sh`
  17) Test it out via  `./backup.sh`
- 18) Set up a daily backup at midnight via `crontab -e`:
-    `0 0 * * * /home/ubuntu/backup.sh > /home/ubuntu/backup.log`
+ 18) Set up a daily backup at midnight via `crontab -e`
+ 19) press `insert key`
+ 20) paste this code `0 0 * * * /home/ubuntu/backup.sh > /home/ubuntu/backup.log`
+ 21) for save job `ESC` `:wq`
+ 22) crontab list `crontab -l`
