@@ -1,4 +1,4 @@
-# automatically-backup-MongoDB
+# MongoDBBackup
 Automating backup for MongoDB using CRONTAB and AWSCLI 
 ##  Make sure to:
  01) Name this file `backup.sh` and place it in `/home/ec2-user`
