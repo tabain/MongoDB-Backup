@@ -43,8 +43,6 @@ echo "Backing up $HOST/$DBNAME to s3://$BUCKET/ on $TIME";
 # Dump from mongodb host into backup directory
 /usr/bin/mongodump --host $HOST --port $PORT  --db $DBNAME --username $DBUSR --password $DBPWD -o $DEST
 
-/usr/bin/mongodump -h $HOST -d $DBNAME -o $DEST
-
 # Create tar of backup directory
 /bin/tar cvf $TAR -C $DEST .
 
