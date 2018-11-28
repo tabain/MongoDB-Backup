@@ -12,7 +12,7 @@ Automating backup for MongoDB using CRONTAB and AWSCLI
  09) `/usr/local/bin/aws --version`
  10) `./awscli-bundle/install -h`
  11  `aws --version`
- 11) Run `sudo apt-get install awscli` to install the AWSCLI
+ 11) Run `sudo yum install awscli` to install the AWSCLI
  12) Run `aws configure` (enter s3-authorized IAM user and specify region)
  13) Fill in DB host + name + port + user + password
  15) Create S3 bucket for the backups and fill it in below (set a lifecycle rule to expire files older than X days in the bucket)
